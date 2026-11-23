@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 4.497704545455409,
+        "y": 7.384715909089868
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 8.95025,
+        "y": 7.776375
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 9.0,
+        "y": 6.982749999999999
+      },
+      "prevControl": {
+        "x": 8.750515957587478,
+        "y": 7.0315657004097964
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "FarTopFuel"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": true
+  },
+  "goalEndState": {
+    "velocity": 2.0,
+    "rotation": -115.0
+  },
+  "reversed": false,
+  "folder": "Main Paths",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -90.0
+  },
+  "useDefaultConstraints": true
+}

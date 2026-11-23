@@ -1,0 +1,75 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 7.8165,
+        "y": 6.0
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 8.067667299670864,
+        "y": 5.9043550872452135
+      },
+      "isLocked": false,
+      "linkedName": "TopUCurveFullFuel"
+    },
+    {
+      "anchor": {
+        "x": 5.796363636363636,
+        "y": 7.395022727272727
+      },
+      "prevControl": {
+        "x": 7.228605699471702,
+        "y": 7.395022727272727
+      },
+      "nextControl": {
+        "x": 4.7347613636363635,
+        "y": 7.395022727272727
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 3.256350626118068,
+        "y": 7.14216457960644
+      },
+      "prevControl": {
+        "x": 4.055223905273013,
+        "y": 7.209761880189132
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "TopTrenchEndPoint"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.8,
+      "rotationDegrees": 90.0
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": true
+  },
+  "goalEndState": {
+    "velocity": 2.0,
+    "rotation": 116.1139126302907
+  },
+  "reversed": false,
+  "folder": "Main Paths",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 75.0
+  },
+  "useDefaultConstraints": true
+}

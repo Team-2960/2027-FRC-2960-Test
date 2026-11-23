@@ -1,0 +1,70 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 5.662375,
+        "y": 5.776852272727273
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 8.074170454545454,
+        "y": 4.859545454545455
+      },
+      "isLocked": false,
+      "linkedName": "EndSnowBlow1"
+    },
+    {
+      "anchor": {
+        "x": 8.764727272727272,
+        "y": 5.086295454545454
+      },
+      "prevControl": {
+        "x": 8.915163502681791,
+        "y": 5.556408673153321
+      },
+      "nextControl": {
+        "x": 8.599818181818181,
+        "y": 4.570954545454546
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 5.662375,
+        "y": 5.220284090909091
+      },
+      "prevControl": {
+        "x": 5.413509004870444,
+        "y": 5.196499296014528
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "EndSnowBlow2"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": true
+  },
+  "goalEndState": {
+    "velocity": 0.0,
+    "rotation": 0.0
+  },
+  "reversed": false,
+  "folder": "Main Paths",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "useDefaultConstraints": true
+}

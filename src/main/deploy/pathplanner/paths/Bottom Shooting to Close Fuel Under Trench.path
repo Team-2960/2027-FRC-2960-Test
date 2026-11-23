@@ -1,0 +1,86 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 2.2503756708407865,
+        "y": 2.7288550983899813
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.3742961253862411,
+        "y": 0.9457755529354357
+      },
+      "isLocked": false,
+      "linkedName": "BottomShootPoint"
+    },
+    {
+      "anchor": {
+        "x": 4.569852272727272,
+        "y": 0.5719090909090914
+      },
+      "prevControl": {
+        "x": 2.955496577444589,
+        "y": 0.5318837430921655
+      },
+      "nextControl": {
+        "x": 5.8169772727272715,
+        "y": 0.6028295454545456
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 5.858204545454544,
+        "y": 1.4892159090909092
+      },
+      "prevControl": {
+        "x": 6.765204545454545,
+        "y": 0.6234431818181828
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "BottomCloseIntakePos"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.6259780907668236,
+      "rotationDegrees": 0.0
+    },
+    {
+      "waypointRelativePos": 1.338962605548851,
+      "rotationDegrees": 0.0
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "IntakePivOut Command",
+      "waypointRelativePos": 1.4826666666666652,
+      "endWaypointRelativePos": null,
+      "command": null
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": true
+  },
+  "goalEndState": {
+    "velocity": 4.0,
+    "rotation": 90.0
+  },
+  "reversed": false,
+  "folder": "Main Paths",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -144.92624550665175
+  },
+  "useDefaultConstraints": true
+}
